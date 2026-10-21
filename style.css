@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff6ed;
+  color: #503629;
+  line-height: 1.7;
+}
+
+header {
+  text-align: center;
+  padding: 55px 20px;
+  background: #f5d4b8;
+}
+
+.eyebrow {
+  letter-spacing: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: clamp(30px, 5vw, 48px);
+  margin: 10px 0;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+main {
+  max-width: 750px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+.cookie-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px #50362915;
+}
+
+.cookie-art {
+  text-align: center;
+  font-size: 65px;
+  padding: 25px 10px;
+  background: #fff0df;
+  border-radius: 14px;
+}
+
+h2, h3 {
+  color: #8a4d32;
+}
+
+.note {
+  background: #fff0df;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f5d4b8;
+}
+
+@media (max-width: 500px) {
+  .cookie-card {
+    padding: 18px;
+  }
+}
